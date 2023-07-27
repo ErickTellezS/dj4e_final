@@ -22,7 +22,7 @@ APP_NAME = 'Erick_App'   # Add
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'g$iqqu&*mw4_sg3(#ld0sqaalxebel&168^yj%i&sgrw(fmn@w'
+SECRET_KEY = '*********************************'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -109,10 +109,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ErickTellez$ads',
-        'USER': 'ErickTellez',
-        'PASSWORD': 'jimena123',
-        'HOST': 'ErickTellez.mysql.pythonanywhere-services.com',
+        'NAME': '***********************$ads',
+        'USER': '***************************',
+        'PASSWORD': '********************',
+        'HOST': '*********************',
          'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         },
